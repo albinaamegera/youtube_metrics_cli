@@ -16,7 +16,7 @@ class CSVReader:
             file_path: путь к CSV файлу
 
         Returns:
-            List[VideoMetrics]: список метрик видео
+            list[VideoMetrics]: список метрик видео
 
         Raises:
             ValueError: если файл не содержит заголовки
@@ -49,7 +49,7 @@ class CSVReader:
             file_paths: список путей к CSV файлам
 
         Returns:
-            List[VideoMetrics]: объединенный список метрик из всех файлов
+            list[VideoMetrics]: объединенный список метрик из всех файлов
 
         Raises:
             ValueError: если файл не содержит заголовки
